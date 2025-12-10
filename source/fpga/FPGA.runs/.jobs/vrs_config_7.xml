@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="rgmii_ethernet_mac_m_synth_1" LaunchDir="F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/rgmii_ethernet_mac_m_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

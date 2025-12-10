@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="SFP_M_axi_10g_ethernet_synth_1" LaunchPart="xc7k325tffg676-2" LaunchTime="1709880934">
+  <File Type="PA-TCL" Name="SFP_M_axi_10g_ethernet.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="SFP_M_axi_10g_ethernet_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="SFP_M_axi_10g_ethernet_reports.tcl"/>
+  <File Type="RDS-RDS" Name="SFP_M_axi_10g_ethernet.vds"/>
+  <File Type="RDS-UTIL" Name="SFP_M_axi_10g_ethernet_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="SFP_M_axi_10g_ethernet_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="SFP_M_axi_10g_ethernet.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="SFP_M_axi_10g_ethernet_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="SFP_M_axi_10g_ethernet_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/SFP_M_axi_10g_ethernet">
+    <File Path="$PSRCDIR/SFP_M_axi_10g_ethernet/ip/SFP_M_axi_10g_ethernet/SFP_M_axi_10g_ethernet.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../NewNP_PJ/IP/SFP_M_axi_10g_ethernet/SFP_M_axi_10g_ethernet.xci"/>
+        <Attr Name="ImportTime" Val="1664954504"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="SFP_M_axi_10g_ethernet"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/SFP_M_axi_10g_ethernet">
+    <File Path="$PSRCDIR/SFP_M_axi_10g_ethernet/ip/SFP_M_axi_10g_ethernet/SFP_M_axi_10g_ethernet.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../NewNP_PJ/IP/SFP_M_axi_10g_ethernet/SFP_M_axi_10g_ethernet.xci"/>
+        <Attr Name="ImportTime" Val="1664954504"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="SFP_M_axi_10g_ethernet"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/process_control/synthesis_pre.tcl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../NewNP_PJ/New_NP_PJ/ip_patch/process_control/synthesis_pre.tcl"/>
+        <Attr Name="ImportTime" Val="1676442330"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="synth_1;SYNTH_DESIGN;TCL.PRE"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

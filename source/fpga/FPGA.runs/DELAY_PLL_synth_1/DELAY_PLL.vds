@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar  8 14:55:50 2024
+# Process ID: 1648
+# Current directory: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/DELAY_PLL_synth_1
+# Command line: vivado.exe -log DELAY_PLL.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DELAY_PLL.tcl
+# Log file: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/DELAY_PLL_synth_1/DELAY_PLL.vds
+# Journal file: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/DELAY_PLL_synth_1\vivado.jou
+#-----------------------------------------------------------
+source DELAY_PLL.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 319.980 ; gain = 40.922
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP DELAY_PLL, cache-ID = b1e4a376b51630fb.
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  8 14:56:18 2024...

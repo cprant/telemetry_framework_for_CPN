@@ -1,0 +1,38 @@
+verilog xil_defaultlib --include "../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_0/header_files" --include "../../../../../IP/SGMII_S_axi_ethernet/header_files" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_0/synth/common/bd_1953_mac_0_block_sync_block.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_0/synth/bd_1953_mac_0_axi4_lite_ipif_wrapper.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_0/synth/statistics/bd_1953_mac_0_vector_decode.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_0/synth/bd_1953_mac_0_block.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_0/synth/bd_1953_mac_0.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/bd_1953_pcs_pma_0_reset_wtd_timer.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/sgmii_adapt/bd_1953_pcs_pma_0_clk_gen.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/sgmii_adapt/bd_1953_pcs_pma_0_johnson_cntr.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/bd_1953_pcs_pma_0_reset_sync.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/sgmii_adapt/bd_1953_pcs_pma_0_rx_rate_adapt.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/sgmii_adapt/bd_1953_pcs_pma_0_sgmii_adapt.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/bd_1953_pcs_pma_0_sync_block.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/sgmii_adapt/bd_1953_pcs_pma_0_tx_rate_adapt.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/lvds_transceiver/bd_1953_pcs_pma_0_gearbox_10b_6b.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/lvds_transceiver/bd_1953_pcs_pma_0_gearbox_6b_10b.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/lvds_transceiver/bd_1953_pcs_pma_0_sgmii_eye_monitor.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/lvds_transceiver/bd_1953_pcs_pma_0_sgmii_phy_calibration.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/lvds_transceiver/bd_1953_pcs_pma_0_sgmii_comma_alignment.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/sgmii_lvds_transceiver/bd_1953_pcs_pma_0_decode_8b10b_lut_base.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/sgmii_lvds_transceiver/bd_1953_pcs_pma_0_encode_8b10b_lut_base.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/lvds_transceiver/bd_1953_pcs_pma_0_sgmii_phy_iob.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/lvds_transceiver/bd_1953_pcs_pma_0_gpio_sgmii_top.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/lvds_transceiver/bd_1953_pcs_pma_0_lvds_transceiver.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/bd_1953_pcs_pma_0_block.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_1/synth/bd_1953_pcs_pma_0.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_2/sim/bd_1953_xlconstant_phyadd_0.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_3/sim/bd_1953_xlconstant_config_vec_0.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_4/sim/bd_1953_xlconstant_config_val_0.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_7/sim/bd_1953_xlconstant_0_0.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_8/sim/bd_1953_util_vector_logic_0_0.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_9/sim/bd_1953_reset_inv_0.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/sim/bd_1953.v" \
+"../../../../../IP/SGMII_S_axi_ethernet/sim/SGMII_S_axi_ethernet.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

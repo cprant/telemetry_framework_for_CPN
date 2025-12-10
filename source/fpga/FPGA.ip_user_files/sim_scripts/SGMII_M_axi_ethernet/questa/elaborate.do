@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L xil_defaultlib -L xpm -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.SGMII_M_axi_ethernet xil_defaultlib.glbl -o SGMII_M_axi_ethernet_opt

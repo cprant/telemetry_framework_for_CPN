@@ -1,0 +1,15 @@
+
+*** Running vivado
+    with args -log bd_c84c_xmac_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_c84c_xmac_0.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source bd_c84c_xmac_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 319.207 ; gain = 38.453
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP bd_c84c_xmac_0, cache-ID = 9cda65872403e3d0.
+config_ip_cache: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 381.859 ; gain = 10.504
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  8 14:56:30 2024...

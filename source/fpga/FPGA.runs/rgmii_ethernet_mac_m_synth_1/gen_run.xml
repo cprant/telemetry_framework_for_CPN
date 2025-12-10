@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="rgmii_ethernet_mac_m_synth_1" LaunchPart="xc7k325tffg676-2" LaunchTime="1709882817">
+  <File Type="PA-TCL" Name="rgmii_ethernet_mac_m.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="rgmii_ethernet_mac_m_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="rgmii_ethernet_mac_m_reports.tcl"/>
+  <File Type="RDS-RDS" Name="rgmii_ethernet_mac_m.vds"/>
+  <File Type="RDS-UTIL" Name="rgmii_ethernet_mac_m_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="rgmii_ethernet_mac_m_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="rgmii_ethernet_mac_m.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="rgmii_ethernet_mac_m_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="rgmii_ethernet_mac_m_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rgmii_ethernet_mac_m">
+    <File Path="$PSRCDIR/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../NewNP_PJ/IP/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci"/>
+        <Attr Name="ImportTime" Val="1664954528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="rgmii_ethernet_mac_m"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rgmii_ethernet_mac_m">
+    <File Path="$PSRCDIR/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../NewNP_PJ/IP/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci"/>
+        <Attr Name="ImportTime" Val="1664954528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="rgmii_ethernet_mac_m"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/process_control/synthesis_pre.tcl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../NewNP_PJ/New_NP_PJ/ip_patch/process_control/synthesis_pre.tcl"/>
+        <Attr Name="ImportTime" Val="1676442330"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="synth_1;SYNTH_DESIGN;TCL.PRE"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

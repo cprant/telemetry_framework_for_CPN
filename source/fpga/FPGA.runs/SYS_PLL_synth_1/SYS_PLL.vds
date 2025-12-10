@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar  8 14:57:06 2024
+# Process ID: 20820
+# Current directory: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/SYS_PLL_synth_1
+# Command line: vivado.exe -log SYS_PLL.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SYS_PLL.tcl
+# Log file: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/SYS_PLL_synth_1/SYS_PLL.vds
+# Journal file: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/SYS_PLL_synth_1\vivado.jou
+#-----------------------------------------------------------
+source SYS_PLL.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP SYS_PLL, cache-ID = 6807e144b7e0661f.
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  8 14:57:15 2024...

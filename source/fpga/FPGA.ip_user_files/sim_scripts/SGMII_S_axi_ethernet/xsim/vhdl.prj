@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_0/synth/bd_1953_mac_0_axi4_lite_ipif_top.vhd" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_5/sim/bd_1953_c_shift_ram_0_0.vhd" \
+"../../../../../IP/SGMII_S_axi_ethernet/bd_0/ip/ip_6/sim/bd_1953_c_counter_binary_0_0.vhd" \
+
+nosort

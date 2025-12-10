@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="SYS_PLL_synth_1" LaunchPart="xc7k325tffg676-2" LaunchTime="1709880936">
+  <File Type="PA-TCL" Name="SYS_PLL.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="SYS_PLL_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="SYS_PLL_reports.tcl"/>
+  <File Type="RDS-RDS" Name="SYS_PLL.vds"/>
+  <File Type="RDS-UTIL" Name="SYS_PLL_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="SYS_PLL_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="SYS_PLL.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="SYS_PLL_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="SYS_PLL_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/SYS_PLL">
+    <File Path="$PSRCDIR/SYS_PLL/ip/SYS_PLL/SYS_PLL.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../NewNP_PJ/IP/SYS_PLL/SYS_PLL.xci"/>
+        <Attr Name="ImportTime" Val="1664954524"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="SYS_PLL"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/SYS_PLL">
+    <File Path="$PSRCDIR/SYS_PLL/ip/SYS_PLL/SYS_PLL.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../NewNP_PJ/IP/SYS_PLL/SYS_PLL.xci"/>
+        <Attr Name="ImportTime" Val="1664954524"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="SYS_PLL"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/process_control/synthesis_pre.tcl">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../NewNP_PJ/New_NP_PJ/ip_patch/process_control/synthesis_pre.tcl"/>
+        <Attr Name="ImportTime" Val="1676442330"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="synth_1;SYNTH_DESIGN;TCL.PRE"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

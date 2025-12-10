@@ -1,0 +1,285 @@
+
+*** Running vivado
+    with args -log rgmii_ethernet_mac_m.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rgmii_ethernet_mac_m.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source rgmii_ethernet_mac_m.tcl -notrace
+Command: synth_design -top rgmii_ethernet_mac_m -part xc7k325tffg676-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15796 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 480.250 ; gain = 110.012
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'rgmii_ethernet_mac_m' [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m.v:67]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_ethernet_mac_m_support' [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m_support.v:66]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_ethernet_mac_m_support_clocking' [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m_support_clocking.v:67]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26717]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 5.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 8.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 5.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 5 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 90.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 5 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (1#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26717]
+INFO: [Synth 8-6157] synthesizing module 'BUFGCE' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:619]
+	Parameter CE_TYPE bound to: SYNC - type: string 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_I_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'BUFGCE' (2#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:619]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_ethernet_mac_m_support_clocking' (3#1) [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m_support_clocking.v:67]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_ethernet_mac_m_support_resets' [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m_support_resets.v:57]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_ethernet_mac_m_block_reset_sync' [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/common/rgmii_ethernet_mac_m_block_reset_sync.v:66]
+	Parameter INITIALISE bound to: 1'b1 
+	Parameter DEPTH bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'FDPE' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:3911]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDPE' (4#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:3911]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_ethernet_mac_m_block_reset_sync' (5#1) [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/common/rgmii_ethernet_mac_m_block_reset_sync.v:66]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_ethernet_mac_m_block_sync_block' [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/common/rgmii_ethernet_mac_m_block_sync_block.v:63]
+	Parameter INITIALISE bound to: 1'b0 
+	Parameter DEPTH bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:3971]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (6#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:3971]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_ethernet_mac_m_block_sync_block' (7#1) [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/common/rgmii_ethernet_mac_m_block_sync_block.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_ethernet_mac_m_support_resets' (8#1) [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m_support_resets.v:57]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYCTRL' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22464]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYCTRL' (9#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22464]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_ethernet_mac_m_block' [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m_block.v:98]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_ethernet_mac_m_clk_en_gen' [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m_clk_en_gen.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_ethernet_mac_m_clk_en_gen' (10#1) [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m_clk_en_gen.v:65]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_ethernet_mac_m_rgmii_v2_0_if' [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/physical/rgmii_ethernet_mac_m_rgmii_v2_0_if.v:70]
+INFO: [Synth 8-6157] synthesizing module 'OBUF' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:28230]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUF' (11#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:28230]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:20408]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (12#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:20408]
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:31641]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (13#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:31641]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22477]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2' (14#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22477]
+INFO: [Synth 8-6157] synthesizing module 'IDDR' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22342]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE_PIPELINED - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IDDR' (15#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22342]
+INFO: [Synth 8-6157] synthesizing module 'BUFIO' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:838]
+INFO: [Synth 8-6155] done synthesizing module 'BUFIO' (16#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:838]
+INFO: [Synth 8-6157] synthesizing module 'BUFR' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:891]
+	Parameter BUFR_DIVIDE bound to: BYPASS - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'BUFR' (17#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:891]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_ethernet_mac_m_rgmii_v2_0_if' (18#1) [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/physical/rgmii_ethernet_mac_m_rgmii_v2_0_if.v:70]
+INFO: [Synth 8-6157] synthesizing module 'LUT4' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26530]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4' (27#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26530]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized0' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26530]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized0' (27#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26530]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized1' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26530]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized1' (27#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26530]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized2' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26530]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized2' (27#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26530]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized3' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26530]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized3' (27#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26530]
+INFO: [Synth 8-6157] synthesizing module 'RAM64X1D' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:45535]
+INFO: [Synth 8-6155] done synthesizing module 'RAM64X1D' (43#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:45535]
+INFO: [Synth 8-6157] synthesizing module 'LUT3' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26488]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3' (44#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26488]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized0' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26488]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized0' (44#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26488]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized1' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26488]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized1' (44#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26488]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized2' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26488]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized2' (44#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:26488]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:51699]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (45#1) [D:/vivado/Vivado/2018.3/scripts/rt/data/unisim_comp.v:51699]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_ethernet_mac_m_block' (49#1) [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m_block.v:98]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_ethernet_mac_m_support' (50#1) [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m_support.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_ethernet_mac_m' (51#1) [f:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/synth/rgmii_ethernet_mac_m.v:67]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port rx_filter_enable[0]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port rx_avb_enable[2]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port rx_avb_enable[1]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port rx_avb_enable[0]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[16]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[15]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[14]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[13]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[12]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[11]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[10]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[9]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[8]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[7]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[6]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[1]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_addr[0]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[31]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[30]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[29]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[28]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[27]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[26]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[25]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[24]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[23]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[22]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[21]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[20]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[19]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[18]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[17]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[16]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[15]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[14]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[13]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[12]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[11]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[10]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[9]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[8]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[7]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[6]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[5]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[4]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[3]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[2]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[1]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter has unconnected port bus2ip_data[0]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter_wrap has unconnected port bus2ip_addr[11]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter_wrap has unconnected port bus2ip_addr[10]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter_wrap has unconnected port bus2ip_addr[9]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_addr_filter_wrap has unconnected port bus2ip_addr[8]
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port ENABLE_HALF_DUPLEX
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port DEST_ADD_FIELD
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port SOURCE_ADD_FIELD
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port LENGTH_FIELD
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port IFG
+WARNING: [Synth 8-3331] design PARAM_CHECK has unconnected port SPEED_IS_10_100
+WARNING: [Synth 8-3331] design DECODE_FRAME has unconnected port FIELD_COUNTER[5]
+WARNING: [Synth 8-3331] design DECODE_FRAME has unconnected port FIELD_COUNTER[4]
+WARNING: [Synth 8-3331] design DECODE_FRAME has unconnected port FIELD_COUNTER[3]
+WARNING: [Synth 8-3331] design DECODE_FRAME has unconnected port FIELD_COUNTER[2]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port RESET_GMII_MII
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port INBAND_TS_ENABLE
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port CORE_HAS_SGMII
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port RTC_CLK
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[47]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[46]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[45]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[44]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[43]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[42]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[41]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[40]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[39]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[38]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[37]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[36]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[35]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[34]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[33]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[32]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[31]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[30]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[29]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[28]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[27]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[26]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[25]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[24]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[23]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[22]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[21]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[20]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[19]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[18]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[17]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[16]
+WARNING: [Synth 8-3331] design tri_mode_ethernet_mac_v9_0_13_rx has unconnected port SYSTEMTIMER_S_FIELD[15]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+TclStackFree: incorrect freePtr. Call out of sequence?

@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar  8 14:43:10 2024
+# Process ID: 30832
+# Current directory: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22692 F:\实验室\毕业论文\实验\np123\New_NP_PJ.xpr\New_NP_PJ\New_NP_PJ.xpr
+# Log file: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/vivado.log
+# Journal file: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+generate_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+catch { config_ip_cache -export [get_ips -all rgmii_ethernet_mac_m] }
+export_ip_user_files -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -no_script -sync -force -quiet
+reset_run rgmii_ethernet_mac_m_synth_1
+launch_runs -jobs 4 rgmii_ethernet_mac_m_synth_1
+export_simulation -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -directory F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/sim_scripts -ip_user_files_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files -ipstatic_source_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/modelsim} {questa=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/questa} {riviera=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/riviera} {activehdl=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run rgmii_ethernet_mac_m_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+export_ip_user_files -of_objects  [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset rgmii_ethernet_mac_m] F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+update_compile_order -fileset sources_1
+generate_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+catch { config_ip_cache -export [get_ips -all rgmii_ethernet_mac_m] }
+export_ip_user_files -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+launch_runs -jobs 4 rgmii_ethernet_mac_m_synth_1
+export_simulation -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -directory F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/sim_scripts -ip_user_files_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files -ipstatic_source_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/modelsim} {questa=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/questa} {riviera=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/riviera} {activehdl=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run rgmii_ethernet_mac_m_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+delete_ip_run [get_files -of_objects [get_fileset rgmii_ethernet_mac_m] F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+set_property generate_synth_checkpoint false [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+generate_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+export_ip_user_files -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -directory F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/sim_scripts -ip_user_files_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files -ipstatic_source_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/modelsim} {questa=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/questa} {riviera=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/riviera} {activehdl=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint true [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+generate_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+catch { config_ip_cache -export [get_ips -all rgmii_ethernet_mac_m] }
+export_ip_user_files -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+launch_runs -jobs 4 rgmii_ethernet_mac_m_synth_1
+export_simulation -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -directory F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/sim_scripts -ip_user_files_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files -ipstatic_source_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/modelsim} {questa=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/questa} {riviera=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/riviera} {activehdl=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+catch { config_ip_cache -export [get_ips -all rgmii_ethernet_mac_m] }
+export_ip_user_files -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -no_script -sync -force -quiet
+reset_run rgmii_ethernet_mac_m_synth_1
+launch_runs -jobs 4 rgmii_ethernet_mac_m_synth_1
+export_simulation -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -directory F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/sim_scripts -ip_user_files_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files -ipstatic_source_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/modelsim} {questa=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/questa} {riviera=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/riviera} {activehdl=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet

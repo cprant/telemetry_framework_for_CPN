@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Sep  1 10:38:05 2023
+# Process ID: 3076
+# Current directory: C:/Users/windows-master/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6928
+# Log file: C:/Users/windows-master/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/windows-master/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/project/DN_NewNP/NewNP_PJ/New_NP_PJ/New_NP_PJ.xpr
+update_compile_order -fileset sources_1
+archive_project D:/project/DN_NewNP/NewNP_PJ/New_NP_PJ.xpr.zip -temp_dir D:/project/DN_NewNP -force -exclude_run_results -include_local_ip_cache -include_config_settings

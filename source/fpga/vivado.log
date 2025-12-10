@@ -1,0 +1,149 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar  8 14:43:10 2024
+# Process ID: 30832
+# Current directory: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22692 F:\实验室\毕业论文\实验\np123\New_NP_PJ.xpr\New_NP_PJ\New_NP_PJ.xpr
+# Log file: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/vivado.log
+# Journal file: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.xpr
+INFO: [Project 1-313] Project file moved from 'D:/project/DN_NewNP/PrjAr/_X_' since last save.
+CRITICAL WARNING: [Project 1-863] The design checkpoint file F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/sim_1/imports/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.dcp was generated for a block design or an IP or BD by an out of context synthesis run and should not directly be used as a source in a Vivado flow to refer to an IP source.  As of 2017.1, the DCP from OOC runs will not contain XDC timing constraints because these are expected to be referred to by the IP .xci or .xcix file source. DCP files prior to 2017.1 will contain incorrect constraints because they were generated with default OOC clock period which will not likely match your top level clock constraints when used in the full design context. 
+ 
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-5178] IP SGMII_M_axi_ethernet will not be generated with lower license level. If you would like to generate with the current available license levels, please reset and regenerate.
+WARNING: [IP_Flow 19-5178] IP rgmii_ethernet_mac_m will not be generated with lower license level. If you would like to generate with the current available license levels, please reset and regenerate.
+WARNING: [IP_Flow 19-5178] IP SFP_M_axi_10g_ethernet will not be generated with lower license level. If you would like to generate with the current available license levels, please reset and regenerate.
+WARNING: [IP_Flow 19-5178] IP SGMII_S_axi_ethernet will not be generated with lower license level. If you would like to generate with the current available license levels, please reset and regenerate.
+open_project: Time (s): cpu = 00:00:42 ; elapsed = 00:00:29 . Memory (MB): peak = 819.320 ; gain = 244.770
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Fri Mar  8 14:55:38 2024] Launched DELAY_PLL_synth_1, rgmii_ethernet_mac_m_synth_1, SFP_M_axi_10g_ethernet_synth_1, bd_c84c_xmac_0_synth_1, bd_c84c_xpcs_0_synth_1, SGMII_S_axi_ethernet_synth_1, bd_1953_mac_0_synth_1, bd_1953_pcs_pma_0_synth_1, bd_1953_c_shift_ram_0_0_synth_1, bd_1953_c_counter_binary_0_0_synth_1, bd_1953_util_vector_logic_0_0_synth_1, bd_1953_reset_inv_0_synth_1, SYS_PLL_synth_1...
+Run output will be captured here:
+DELAY_PLL_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/DELAY_PLL_synth_1/runme.log
+rgmii_ethernet_mac_m_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/rgmii_ethernet_mac_m_synth_1/runme.log
+SFP_M_axi_10g_ethernet_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/SFP_M_axi_10g_ethernet_synth_1/runme.log
+bd_c84c_xmac_0_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/bd_c84c_xmac_0_synth_1/runme.log
+bd_c84c_xpcs_0_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/bd_c84c_xpcs_0_synth_1/runme.log
+SGMII_S_axi_ethernet_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/SGMII_S_axi_ethernet_synth_1/runme.log
+bd_1953_mac_0_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/bd_1953_mac_0_synth_1/runme.log
+bd_1953_pcs_pma_0_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/bd_1953_pcs_pma_0_synth_1/runme.log
+bd_1953_c_shift_ram_0_0_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/bd_1953_c_shift_ram_0_0_synth_1/runme.log
+bd_1953_c_counter_binary_0_0_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/bd_1953_c_counter_binary_0_0_synth_1/runme.log
+bd_1953_util_vector_logic_0_0_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/bd_1953_util_vector_logic_0_0_synth_1/runme.log
+bd_1953_reset_inv_0_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/bd_1953_reset_inv_0_synth_1/runme.log
+SYS_PLL_synth_1: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/SYS_PLL_synth_1/runme.log
+[Fri Mar  8 14:55:42 2024] Launched synth_1...
+Run output will be captured here: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 874.832 ; gain = 10.621
+generate_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+catch { config_ip_cache -export [get_ips -all rgmii_ethernet_mac_m] }
+export_ip_user_files -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -no_script -sync -force -quiet
+reset_run rgmii_ethernet_mac_m_synth_1
+launch_runs -jobs 4 rgmii_ethernet_mac_m_synth_1
+[Fri Mar  8 15:03:13 2024] Launched rgmii_ethernet_mac_m_synth_1...
+Run output will be captured here: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/rgmii_ethernet_mac_m_synth_1/runme.log
+export_simulation -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -directory F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/sim_scripts -ip_user_files_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files -ipstatic_source_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/modelsim} {questa=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/questa} {riviera=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/riviera} {activehdl=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run rgmii_ethernet_mac_m_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Mar  8 15:05:44 2024] Launched rgmii_ethernet_mac_m_synth_1...
+Run output will be captured here: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/rgmii_ethernet_mac_m_synth_1/runme.log
+[Fri Mar  8 15:05:44 2024] Launched synth_1...
+Run output will be captured here: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/synth_1/runme.log
+reset_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+export_ip_user_files -of_objects  [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset rgmii_ethernet_mac_m] F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+INFO: [Project 1-386] Moving file 'F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci' from fileset 'rgmii_ethernet_mac_m' to fileset 'sources_1'.
+update_compile_order -fileset sources_1
+generate_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rgmii_ethernet_mac_m'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rgmii_ethernet_mac_m'...
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rgmii_ethernet_mac_m'...
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'rgmii_ethernet_mac_m'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'rgmii_ethernet_mac_m'...
+generate_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1051.789 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all rgmii_ethernet_mac_m] }
+export_ip_user_files -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+launch_runs -jobs 4 rgmii_ethernet_mac_m_synth_1
+[Fri Mar  8 15:16:05 2024] Launched rgmii_ethernet_mac_m_synth_1...
+Run output will be captured here: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/rgmii_ethernet_mac_m_synth_1/runme.log
+export_simulation -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -directory F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/sim_scripts -ip_user_files_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files -ipstatic_source_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/modelsim} {questa=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/questa} {riviera=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/riviera} {activehdl=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run rgmii_ethernet_mac_m_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Mar  8 15:18:41 2024] Launched rgmii_ethernet_mac_m_synth_1...
+Run output will be captured here: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/rgmii_ethernet_mac_m_synth_1/runme.log
+[Fri Mar  8 15:18:41 2024] Launched synth_1...
+Run output will be captured here: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/synth_1/runme.log
+delete_ip_run [get_files -of_objects [get_fileset rgmii_ethernet_mac_m] F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+INFO: [Project 1-386] Moving file 'F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci' from fileset 'rgmii_ethernet_mac_m' to fileset 'sources_1'.
+set_property generate_synth_checkpoint false [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+generate_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rgmii_ethernet_mac_m'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rgmii_ethernet_mac_m'...
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rgmii_ethernet_mac_m'...
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'rgmii_ethernet_mac_m'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'rgmii_ethernet_mac_m'...
+generate_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1143.363 ; gain = 0.000
+export_ip_user_files -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -directory F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/sim_scripts -ip_user_files_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files -ipstatic_source_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/modelsim} {questa=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/questa} {riviera=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/riviera} {activehdl=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint true [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+generate_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rgmii_ethernet_mac_m'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rgmii_ethernet_mac_m'...
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rgmii_ethernet_mac_m'...
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Design_Linking license.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'rgmii_ethernet_mac_m'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'rgmii_ethernet_mac_m'...
+generate_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1143.363 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all rgmii_ethernet_mac_m] }
+export_ip_user_files -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+launch_runs -jobs 4 rgmii_ethernet_mac_m_synth_1
+[Fri Mar  8 15:24:20 2024] Launched rgmii_ethernet_mac_m_synth_1...
+Run output will be captured here: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/rgmii_ethernet_mac_m_synth_1/runme.log
+export_simulation -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -directory F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/sim_scripts -ip_user_files_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files -ipstatic_source_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/modelsim} {questa=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/questa} {riviera=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/riviera} {activehdl=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci]
+catch { config_ip_cache -export [get_ips -all rgmii_ethernet_mac_m] }
+export_ip_user_files -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -no_script -sync -force -quiet
+reset_run rgmii_ethernet_mac_m_synth_1
+launch_runs -jobs 4 rgmii_ethernet_mac_m_synth_1
+[Fri Mar  8 15:26:57 2024] Launched rgmii_ethernet_mac_m_synth_1...
+Run output will be captured here: F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.runs/rgmii_ethernet_mac_m_synth_1/runme.log
+export_simulation -of_objects [get_files F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.srcs/rgmii_ethernet_mac_m/ip/rgmii_ethernet_mac_m/rgmii_ethernet_mac_m.xci] -directory F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/sim_scripts -ip_user_files_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files -ipstatic_source_dir F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/modelsim} {questa=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/questa} {riviera=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/riviera} {activehdl=F:/实验室/毕业论文/实验/np123/New_NP_PJ.xpr/New_NP_PJ/New_NP_PJ.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  8 15:28:06 2024...
